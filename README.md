@@ -47,7 +47,7 @@ Data from the CSV files were imported into the PostgreSQL database. The integrit
 - SQL
 
 ## Collaborators
-* [Adel Mahmum](https://github.com/Adel0121)
+* [Adel Mahmud](https://github.com/Adel0121)
 * [Mohammad Sadek Ahmed](https://github.com/Sadek-Ahmed16)
 * [Nida Ballinger-Chaudhary](https://github.com/NidaB-C)
 
