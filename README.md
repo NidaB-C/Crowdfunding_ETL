@@ -4,26 +4,15 @@
 The project is structured into data extraction and transformation phases, followed by database creation and analysis.
 
 ## Directory Structure
-Crowdfunding_ETL/
+[Crowdfunding_ETL/]
 │
-├── Draft Notebooks/                     # Contains individual work for data extraction and transformation
-│   ├── Campaign_DataFrame-Nida.ipynb
-│   ├── category_subcategory_sadek.ipynb
-│   └── ...
+├── [Draft Notebooks/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/Draft%20Notebooks) - Individual work for data extraction and transformation
 │
-├── ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb    # Final consolidated Jupyter notebook
+├── [ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb] (https://github.com/NidaB-C/Crowdfunding_ETL/blob/main/ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb) - Consolidated Jupyter notebook
 │
-├── Resources/                           # Contains all Excel files and CSVs
-│   ├── crowdfunding.xlsx
-│   ├── contacts.xlsx
-│   ├── category.csv
-│   ├── subcategory.csv
-│   ├── campaign.csv
-│   └── contacts.csv
+├── [Resources/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/Resources) - Contains all Excel files and CSVs
 │
-└── crowdfunding_db/                     # Database schema files
-    └── crowdfunding_db_schema.sql
-    └── queries.sql
+└── [crowdfunding_db/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/crowdfunding_db) - Database schema files
 
     
 ## Entity-Relationship Diagram (ERD)
