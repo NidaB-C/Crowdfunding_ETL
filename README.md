@@ -3,18 +3,13 @@
 ## Overview
 The project is structured into data extraction and transformation phases, followed by database creation and analysis.
 
-## Directory Structure
-[Crowdfunding_ETL/]
-│
-├── [Draft Notebooks/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/Draft%20Notebooks) - Individual work for data extraction and transformation
-│
-├── [ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb] (https://github.com/NidaB-C/Crowdfunding_ETL/blob/main/ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb) - Consolidated Jupyter notebook
-│
-├── [Resources/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/Resources) - Contains all Excel files and CSVs
-│
-└── [crowdfunding_db/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/crowdfunding_db) - Database schema files
+## Repository Structure
 
-    
+* Individual work for data extraction and transformation in the [Draft Notebooks/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/Draft%20Notebooks) directory
+* Consolidated Jupyter notebook [ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb](https://github.com/NidaB-C/Crowdfunding_ETL/blob/main/ETL_Mini_Project_SAhmed_NBallinger_AMahmud.ipynb)
+* Excel files and CSVs in the [Resources/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/Resources) directory
+* Database schema files in the [crowdfunding_db/](https://github.com/NidaB-C/Crowdfunding_ETL/tree/main/crowdfunding_db) directory
+ 
 ## Entity-Relationship Diagram (ERD)
 The ERD for this project illustrates the relationships between four main entities: Categories, Subcategories, Campaigns, and Contacts. 
 
