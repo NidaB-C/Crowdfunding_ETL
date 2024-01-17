@@ -17,7 +17,7 @@ The ERD for this project illustrates the relationships between four main entitie
 - **Campaigns**: Central to our analysis, each campaign record includes details about fundraising goals, outcomes, and associated contacts.
 - **Contacts**: This entity stores information about individuals associated with each campaign.
 
-![Crowdfunding_ERD](https://github.com/NidaB-C/Crowdfunding_ETL/assets/147389952/3f3dff90-9e5b-43fd-80be-872433f2d647)
+<img width="645" src="https://github.com/NidaB-C/Crowdfunding_ETL/assets/147389952/47048358-6d7f-438c-9eae-720977407202">
 
 ## Data Extraction and Transformation
 Data extraction and transformation were executed using Python in Jupyter Notebooks. The process involved:
