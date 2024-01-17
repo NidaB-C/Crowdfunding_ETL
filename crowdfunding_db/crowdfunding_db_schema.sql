@@ -1,12 +1,11 @@
 CREATE TABLE category (
-    category_id SERIAL PRIMARY KEY,
+    category_id VARCHAR(50) PRIMARY KEY,
     category_name VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE subcategory (
-    subcategory_id SERIAL PRIMARY KEY,
-    subcategory_name VARCHAR(255) NOT NULL,
-    category_id INT REFERENCES category(category_id)
+    subcategory_id VARCHAR(50) PRIMARY KEY,
+    subcategory VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE contacts (
@@ -19,16 +18,16 @@ CREATE TABLE contacts (
 CREATE TABLE campaign (
     cf_id SERIAL PRIMARY KEY,
     contact_id INT REFERENCES contacts(contact_id),
-    company_name VARCHAR(255),
+    company_name VARCHAR(255) NOT NULL,
     description TEXT,
-    goal FLOAT,
+    goal FLOAT NOT NULL,
     pledged FLOAT,
     outcome VARCHAR(255),
-    backers_count INT,
-    country VARCHAR(50),
-    currency VARCHAR(50),
-    launch_date DATE,
-    end_date DATE,
-    category_id INT REFERENCES category(category_id),
-    subcategory_id INT REFERENCES subcategory(subcategory_id)
+    backers_count INT NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    currency VARCHAR(50) NOT NULL,
+    launch_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    category_id VARCHAR(50) REFERENCES category(category_id),
+    subcategory_id VARCHAR(50) REFERENCES subcategory(subcategory_id)
 );
